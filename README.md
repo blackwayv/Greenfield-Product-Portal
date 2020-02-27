@@ -3,7 +3,7 @@ This React app is a mockup of this example retail portal: https://xd.adobe.com/v
 
 It features an overview section that displays product info and images. This is alongside an image carousel, size options, quantity, and cart system.
 
-<img src='images/fec-ex1.jpg' width='100'>
+<img src='images/fec-ex1.JPG' width='100'>
 
 Then, a Question and Answers section that allows you to create questions, report questions, and create answers. You may also report any misleading/inappropriate answers. Finally, the Greenfield Product Portal features a Ratings and Reviews section. This displays all of the information provided by the reviews for that specific product, like stars, amount recommended, as well as characteristic ratings. And in the Reviews area, displays a list of reviews, which can be sorted with a dropdown option. You may also rate Ratings, Reviews, Questions, and Answers as helpful. This project uses the separate APIs that each team member created, which can be found here:
 https://github.com/blackwayv/Products_API
