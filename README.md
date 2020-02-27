@@ -13,25 +13,28 @@ It is simple to get the app running, just follow these instructions!
 
 ### Installation
 To preview the app, you will need npm. In your terminal, clone the repository:
+
 `git clone https://github.com/blackwayv/fec`
 
 Then, install the dependencies and prepare the program
-`
-npm install
-npm run build
-`
+
+`npm install
+npm run build`
 
 Finally, run the app!
+
 `npm start`
 
 ## Built With
-*JavaScript
-*jQuery
-*React
-*Bootstrap
-*HTML5/CSS
+* JavaScript
+* jQuery
+* React
+* Bootstrap
+* HTML5/CSS
 
 ## Acknowledgements
-*https://github.com/nicolemunoz99 created the Product Overview section
-*https://github.com/alexanderkho created the Questions and Answers section
-*https://github.com/blackwayv created the Ratings and Reviews section
+* https://github.com/nicolemunoz99 created the Product Overview section
+
+* https://github.com/alexanderkho created the Questions and Answers section
+
+* https://github.com/blackwayv created the Ratings and Reviews section
