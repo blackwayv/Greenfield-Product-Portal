@@ -30,12 +30,9 @@ To preview the app, you will need npm. In your terminal, clone the repository:
 
 Then, install the dependencies and prepare the program
 
-`
-npm install
-`
-`
-npm run build
-`
+`npm install`
+
+`npm run build`
 
 Finally, run the app!
 
