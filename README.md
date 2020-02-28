@@ -14,6 +14,7 @@ Finally, the Greenfield Product Portal features a Ratings and Reviews section. T
 <img src='images/fec-ex3.JPG' width='800'>
 
 This project uses the separate APIs that each team member created, which can be found here:
+
 https://github.com/blackwayv/Products_API
 
 https://github.com/Team-JAN/ReviewsAPI
