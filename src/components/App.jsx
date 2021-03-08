@@ -26,7 +26,7 @@ class App extends React.Component {
 
   componentDidMount() {
     this.getProducts();
-    document.addEventListener('click', this.recordInteractions, false);
+    // document.addEventListener('click', this.recordInteractions, false);
   }
 
   recordInteractions (e) {
@@ -60,7 +60,7 @@ class App extends React.Component {
   getProducts() {
     let promises = [];
     for (let i = 1; i< 100; i++) {
-      promises.push(fetch(`http://3.134.102.30/products/list/?page=${i}&count=50`)
+      promises.push(fetch(`http://localhost:3000/products/list/?page=${i}&count=50`)
         .then(res => res.json())
       );
     }

@@ -29,7 +29,7 @@ class ProductBasics extends React.Component {
   }
 
   getMetaRating(productId) {
-    axios.get(`http://3.134.102.30/reviews/${productId}/meta`)
+    axios.get(`http://localhost:3000/reviews/${productId}/meta`)
     .then(response => {
       let avgRating = this.calcAvgRating(response.data.ratings)
       this.setState({ avgRating })
