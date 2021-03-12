@@ -2,7 +2,7 @@ import React from 'react'
 import ReviewList from './ReviewList.jsx'
 import Ratings from './Ratings.jsx';
 import NewReview from './NewReview.jsx'
-const url = 'http://3.134.102.30/reviews/';
+const url = 'http://52.26.193.201:3000/reviews/';
 
 class Reviews extends React.Component {
   constructor(props) {
@@ -35,7 +35,7 @@ class Reviews extends React.Component {
         if (!this.state.reviews.length) {
           this.setState({
             reviews: result.results
-          }, () => { console.log('this.state.reviews', this.state.reviews)} );
+          });
         } else if (JSON.stringify(this.state.reviews) !== JSON.stringify(result.results)) {
           this.setState({
             reviews: this.state.reviews.concat(result.results)

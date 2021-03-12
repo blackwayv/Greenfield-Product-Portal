@@ -56,7 +56,7 @@ class Overview extends React.Component {
     // checks if sessionId is a duplicate
     // if it is, then create a new one
     let checkForId = (id) => {
-      axios.get('http://localhost:3000/cart/' + id)
+      axios.get('http://52.26.193.201:3000/cart/' + id)
       .then(response => {
         // sessionId already exists, so make a new one
         sessionId = Math.floor(Math.random() * 9999);
