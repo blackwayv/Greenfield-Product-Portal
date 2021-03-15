@@ -2,7 +2,7 @@ import React from 'react';
 import axios from 'axios';
 import Overview from './overview/Overview.jsx';
 import defaultProduct from './defaultProduct.js';
-
+import API from '../../addresses.js';
 
 class App extends React.Component {
   constructor(props) {
@@ -60,7 +60,7 @@ class App extends React.Component {
   getProducts() {
     let promises = [];
     for (let i = 1; i< 100; i++) {
-      promises.push(fetch(`http://localhost:3000/products/list/?page=${i}&count=50`)
+      promises.push(fetch(`http://52.26.193.201:3000/products/list/?page=${i}&count=50`)
         .then(res => res.json())
       );
     }
