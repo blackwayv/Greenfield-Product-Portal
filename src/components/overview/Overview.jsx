@@ -39,7 +39,7 @@ class Overview extends React.Component {
   }
   // Ruben 1450 Dress - typo in 1st style thumbnail url
   getStyles(productId) {
-    axios.get(`http://localhost:3000/products/${productId}/styles`)
+    axios.get(`/products/${productId}/styles`)
     .then(response => {
       this.setState({
         productInfo: this.props.productInfo,

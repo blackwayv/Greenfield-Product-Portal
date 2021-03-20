@@ -59,7 +59,7 @@ class App extends React.Component {
   getProducts() {
     let promises = [];
     for (let i = 1; i< 100; i++) {
-      promises.push(fetch(`http://localhost:3000/products/list/?page=${i}&count=50`)
+      promises.push(fetch(`/products/list/?page=${i}&count=50`)
         .then(res => res.json())
       );
     }
